@@ -37,6 +37,13 @@ body {
     font-family: "Sono", sans-serif;
 }
 
+.descText {
+    color: rgb(255,255,255);
+    font-family: "Sono", sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .contentContainer {
     scroll-snap-type: y proximity;
     margin: 0;
@@ -68,4 +75,59 @@ body {
 
   html {
     scroll-behavior: smooth;
+  }
+
+  #welcomeText::after {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background: #ffffff;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+  }
+
+  @keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+  }
+
+  .embeddedLetter {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 80%;
+  }
+
+  #letterIntent {
+    text-align: left;
+    margin-left: 17%;
+    margin-bottom: -3%;
+  }
+
+  #letterJudges {
+    text-align: left;
+    margin-left: 63%;
+    margin-bottom: -3%;
+  }
+
+  .embedResearchPaper {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 80%;
+  }
+
+  .evidenceImage {
+    width: 33%;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: auto;
+  }
+
+  .mugshot {
+    width: 30%;
+    margin-top: 2%;
+    border-radius: 5px;
+    border: solid white 1px;
   }
