@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: rgb(25,25,25);
 }
 
 .mainHeader {
@@ -119,10 +120,10 @@ body {
   }
 
   .evidenceImage {
-    width: 33%;
+    width: 28%;
     margin-top: 5%;
     margin-left: 5%;
-    height: auto;
+    height: 84%;
   }
 
   .mugshot {
